@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+:root {
+  --primary-color: #44403c;
+  --background: #fdf8d9;
+  --background-secondary: #fffbdb;
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-logo: "Lobster", cursive;
+}
+
+/* Font utility classes */
+.logo-text {
+  font-family: var(--font-logo);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.quicksand-text {
+  font-family: var(--font-quicksand);
+  letter-spacing: -0.01em;
+}
+
+/* Additional utility classes for easier use */
+.font-quicksand {
+  font-family: var(--font-quicksand);
+}
+
+.font-logo {
+  font-family: var(--font-logo);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--background);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary);
+}
