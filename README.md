@@ -1,3 +1,3 @@
 # Plated
 
-A project that explore the use of redux tool-kits, using the-meal-db api.
+A project that explore the use of redux tool-kits,react-routing and tailwind using the-meal-db api.
